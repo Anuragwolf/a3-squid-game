@@ -211,6 +211,8 @@ header i {
    
     height: 200px;
 }
+
+
 .image-container {
     position: relative;
 }
@@ -220,4 +222,12 @@ header i {
     font-size: 20px;
     bottom: 20px;
     color:whitesmoke
+}
+
+.images img:hover {
+    box-shadow:inset 1px 1px 200px  rgba(221, 153, 6, 0.416);
+}
+
+.image-container:hover {
+     box-shadow: 5px 1px 1px  rgba(255, 0, 217, 0.416);
 }
